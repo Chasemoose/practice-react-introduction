@@ -3,13 +3,23 @@ import {createRoot} from 'react-dom/client'
 
 const root = createRoot(document.querySelector('#root'))
 
-const headerStyles = {
-    textDecoration: 'underline',
-    color: 'red'
+
+const HeaderFn = () => {
+    return (
+        <header
+            style={{
+            color: "red",
+            textDecoration: "underline"
+        }}
+        >
+
+            Moja pierwsza strona w React
+    </header>    
+    )
 }
 
-root.render(
-    <header
-    style = {headerStyles}
-    >Moja pierwsza strona w React</header>
-)
+root.render(<HeaderFn />)
+
+
+
+
