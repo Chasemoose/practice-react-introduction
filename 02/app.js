@@ -15,15 +15,13 @@ const HeaderFn = () => {
 	)
 }
 
-
-
 class HeaderCl extends React.Component {
 	render() {
 		return (
 			<header
 				style={{
 					color: "blue",
-					textDecoration: "underline",
+					fontWeight: "bold",
 				}}>
 				Moja pierwsza strona w React
 			</header>
@@ -32,10 +30,12 @@ class HeaderCl extends React.Component {
 }
 
 const App = () => {
-    <div>
-        <HeaderFn />
-        <HeaderCl />
-    </div>
+	return (
+		<div>
+			<HeaderFn />
+			<HeaderCl />
+		</div>
+	)
 }
 
 root.render(<App />)
