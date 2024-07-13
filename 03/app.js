@@ -13,5 +13,4 @@ const App = () => (
 		</ul>
 	</div>
 )
-
 root.render(<App />)
