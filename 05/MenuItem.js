@@ -14,8 +14,8 @@ class MenuItem extends React.Component {
 
 
 MenuItem.propTypes = {
-    text = PropTypes.string.isRequired
-    url = PropTypes.string.isRequired
+    text: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
 }
 
 export default MenuItem
