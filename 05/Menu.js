@@ -1,11 +1,16 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import MenuItem from './MenuItem'
 
-const MenuItem = ({items}) => {
-    <ul>
-        {items.map((item) => (
-            
-        ))}
-    </ul>
+
+class Menu extends React.Component {
+    render () {
+        return (
+            <ul>
+                <MenuItem text='home' url="/" />
+                <MenuItem text='kontakt' url="/contact" />
+
+            </ul>
+        )
+    }
 }
+
+export default Menu
