@@ -1,9 +1,10 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from "react-dom/client"
 import Nav from './Nav'
 
+const root = createRoot(document.querySelector("#root"))
 
-ReactDOM.render(
+root.render(
     <Nav />,
     document.querySelector('#root')
 )
