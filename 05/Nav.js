@@ -1,4 +1,5 @@
 import React from 'react'
+import Menu from './Menu'
 
 class Nav extends React.Component {
     render () {
